@@ -30,37 +30,28 @@ npm or yarn
 git clone https://github.com/geetam-das-binani/task1.git
 
 2.Navigate to the project director:
+
 cd your-repo-name
 
 3.Install dependencies:
+
 npm install
 
 ### Running the Project
 
-To start the development server:
+To start the development server run :
+
 npm run dev
 
 ## or
 
 yarn dev
+
 Open your browser and navigate to `http://localhost:5173` to see the application in action.
 
 ### Building for Production
 
-To build the project for production:
+To build the project for production run the following command:
 npm run build
 
 The output will be in the `dist/` directory.
-
-## Project Structure
-
-├── public/             # Static assets
-├── src/
-│   ├── components/     # React components
-│   ├── App.jsx         # Main application component
-│   ├── index.css       # Global styles
-│   └── main.jsx        # Entry point
-├── index.html          # HTML template
-├── package.json        # Project configuration and dependencies
-├── vite.config.js      # Vite configuration
-└── README.md           # Project documentation
