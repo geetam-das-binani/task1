@@ -27,9 +27,11 @@ npm or yarn
 ## Installation
 
 1.Clone the repository:
-git remote add origin https://github.com/geetam-das-binani/task1.git
+git clone https://github.com/geetam-das-binani/task1.git
+
 2.Navigate to the project director:
 cd your-repo-name
+
 3.Install dependencies:
 npm install
 
